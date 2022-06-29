@@ -7,13 +7,12 @@ LICENSE  = "GPLv2"
 LIC_FILES_CHKSUM = "file://ICE_LICENSE;md5=3679fa8e314664494eac16771c840e06 \
                     file://LICENSE;md5=1b65bb9598f16820aab2ae1dd2a51f9f"
 
-SRCREV  = "${AUTOREV}"
+SRCREV  = "15eeeb77ac01c54548486d691774ab6dd63fdf1c"
 
 PV = "3.7.1"
 PR = "r0"
 
 SRC_URI = "git://github.com/zeroc-ice/ice"
-SRCREV  = "15eeeb77ac01c54548486d691774ab6dd63fdf1c"
 
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/git"

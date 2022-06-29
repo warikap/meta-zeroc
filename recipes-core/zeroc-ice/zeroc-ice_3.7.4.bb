@@ -7,7 +7,7 @@ LICENSE  = "GPLv2"
 LIC_FILES_CHKSUM = "file://ICE_LICENSE;md5=51cbbfae4849a92975efff73e4de3a0c \
                     file://LICENSE;md5=1b65bb9598f16820aab2ae1dd2a51f9f"
 
-SRCREV  = "${AUTOREV}"
+SRCREV  = "827fb617431b61f1fe811139f7b7f33beb45dbf0"
 
 PV = "3.7.4"
 PR = "r0"
