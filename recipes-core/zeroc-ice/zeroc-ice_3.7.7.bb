@@ -17,9 +17,10 @@ SRC_URI = "git://github.com/zeroc-ice/ice;branch=3.7"
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/git"
 
-inherit bluetooth pkgconfig python3native python3-dir
+inherit pkgconfig python3native python3-dir
 
 DEPENDS  = "openssl bzip2 mcpp lmdb expat python3 libedit"
+BLUEZ = "bluez5"
 
 DEPENDS_append_class-target = " ${@bb.utils.contains('DISTRO_FEATURES', 'bluetooth', d.expand('${BLUEZ} dbus-glib'), '', d)}"
 DEPENDS_append_class-nativesdk = " ${@bb.utils.contains('DISTRO_FEATURES', 'bluetooth', d.expand('${BLUEZ} dbus-glib'), '', d)}"

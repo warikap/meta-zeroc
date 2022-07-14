@@ -17,7 +17,8 @@ SRC_URI = "git://github.com/zeroc-ice/ice;branch=3.7"
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/git"
 
-inherit bluetooth pkgconfig python3native python3-dir
+inherit pkgconfig python3native python3-dir
+BLUEZ = "bluez5"
 
 DEPENDS  = "openssl bzip2 mcpp lmdb expat python3"
 
