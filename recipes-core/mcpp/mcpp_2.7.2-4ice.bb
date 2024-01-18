@@ -3,7 +3,7 @@ DESCRIPTION = "A C/C++ preprocessor"
 HOMEPAGE = "https://github.com/zeroc-ice/mcpp"
 SECTION  = "libs"
 
-LICENSE  = "BSD"
+LICENSE  = "BSD-2-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=5ca370b75ec890321888a00cea9bc1d5"
 
 PV = "2.7.2-4ice"
